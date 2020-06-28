@@ -1,0 +1,2 @@
+* README
+My website which is just a static site from scratch, hosted on netlify.
