@@ -51,16 +51,13 @@
   text-align: center;
 }
 
-.navbar {
-  background-color: #312d3c;
-}
-
 .page-header {
   background: no-repeat url(../imgs/crossroad.webp);
   background-size: cover;
 }
 
 .navbar-nav {
+  background-color: #312d3c;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -290,11 +287,12 @@
   }
 
   .navbar {
+    background-color: #312d3c;
     position: fixed;
     bottom: 0;
     z-index: 1;
-    width: 100vw;
     height: 5rem;
+    width: 100vw;
   }
   /* 
     .nav-link .link-text{
@@ -329,8 +327,8 @@
 /* above 600 px add these rules */
 @media (min-width: 600px) {
   .navbar {
+    background-color: #312d3c;
     height: 3rem;
-    width: 100vw;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
