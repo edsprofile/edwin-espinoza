@@ -7,6 +7,25 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#logo{
+  padding: 0 1rem 0 1rem;
+}
+
 .page-header {
   display: flex;
   flex-direction: column;
@@ -365,4 +384,51 @@
   .card {
     width: 60%;
   }
+}
+
+/* ICOMOON icons */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?jrwv74');
+  src:  url('../fonts/icomoon.eot?jrwv74#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jrwv74') format('truetype'),
+    url('../fonts/icomoon.woff?jrwv74') format('woff'),
+    url('../fonts/icomoon.svg?jrwv74#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-address-card-o:before {
+  content: "\e900";
+}
+.icon-linkedin-square:before {
+  content: "\e901";
+}
+.icon-chevron-down:before {
+  content: "\e902";
+}
+.icon-pie-chart:before {
+  content: "\e903";
+}
+.icon-envelope:before {
+  content: "\e904";
+}
+.icon-file:before {
+  content: "\e905";
 }
