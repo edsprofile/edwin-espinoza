@@ -38,6 +38,7 @@
     <script defer src="js/smooth-scroll.js"></script>
     <script defer src="js/wow.js"></script>
     <script defer src="js/main.js"></script>
+    <script defer src="js/lazysizes.min.js"></script>
   </head>
 
   <body>
@@ -127,7 +128,7 @@
         </p>
       </div>
       <div class="wow fadeInRight right">
-        <img id="img-desk" src="imgs/desk.webp" alt="picture of a desk" />
+        <img class="lazyload" id="img-desk" data-src="imgs/desk.webp" alt="picture of a desk" />
         <div class="button-container">
           <a class="b-link" href="#project">
             <button class="button-link">
@@ -153,7 +154,7 @@
       <div class="wow fadeInRight card-container row">
         <div class="card">
           <div class="card-img">
-            <img class="app-pic" src="imgs/wildwoof.webp" alt="wildwoof" />
+            <img class="app-pic lazyload" data-src="imgs/wildwoof.webp" alt="wildwoof" />
           </div>
           <div class="card-title">
             <h4>WildWoof</h4>
@@ -175,7 +176,7 @@
         </div>
         <div class="card">
           <div class="card-img">
-            <img class="app-pic" src="imgs/skills.webp" alt="blog-app" />
+            <img class="app-pic lazyload" data-src="imgs/skills.webp" alt="blog-app" />
           </div>
           <div class="card-title">
             <h4>Blog App</h4>
@@ -197,7 +198,7 @@
         </div>
         <div class="card">
           <div class="card-img">
-            <img class="app-pic" src="imgs/camp.webp" alt="camp picture" />
+            <img class="app-pic lazyload" data-src="imgs/camp.webp" alt="camp picture" />
           </div>
           <div class="card-title">
             <h4>YelpCamp</h4>
