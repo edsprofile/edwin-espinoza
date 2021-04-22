@@ -261,9 +261,13 @@ a{
 
 /* card css END */
 
+#contact-me{
+  padding: 3rem 0 0 3rem;
+}
+
 #contact-me-title {
   width: 15%;
-  margin: 3rem 3rem;
+  margin: 0;
   padding: 0 0 1rem 0;
   border-bottom: 0.5rem solid #7e68bc;
 }
