@@ -28,6 +28,10 @@
       onload="this.onload=null;this.rel='stylesheet'"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
+
+    <link 
+      rel="manifest"
+      href="js/manifest.json" />
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></noscript>
 
     <link
@@ -243,5 +247,11 @@
         </li>
       </ul>
     </section>
+
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register("js/service-worker.js");
+      }
+    </script>
   </body>
 </html>
