@@ -254,11 +254,6 @@
       if('serviceWorker' in navigator){
         navigator.serviceWorker.register("/js/service-worker.js");
       }
-
-      if (window.location.protocol === 'http:') {
-        const requireHTTPS = document.getElementById('requireHTTPS');
-        requireHTTPS.classList.remove('hidden');
-      }
     </script>
   </body>
 </html>
